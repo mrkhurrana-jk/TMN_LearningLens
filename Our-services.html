@@ -1,0 +1,1189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services | The Learning Lens Academy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel=”stylesheet” href=”https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css” />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/navbarFooter.css">
+    <link rel="stylesheet" href="css/res.css">
+    <link rel="stylesheet" href="ccs/style1.css">
+    <!-- <link rel="stylesheet" href="css/card.css"> -->
+
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Merriweather', serif !important;
+            
+        }
+
+        html {
+            overflow-x: hidden;
+        }
+        .courses h2
+        {
+           font-size: 34px;
+           font-weight: bold;
+        }
+        .courses p
+        {
+           font-size: 16px;
+           font-weight:400;
+        }
+
+        .courses h3
+        {
+           font-size: 26px;
+           font-weight: bold;
+        }
+
+        .greyBoxHeadMBBS:hover {
+            box-shadow: 5px 5px 6px #000000;
+        }
+
+        #engineering g text:nth-child(2){
+            display: none;
+        }
+        #medical g text:nth-child(2){
+            display: none;
+        }
+        #management g text:nth-child(2){
+            display: none;
+        }
+        #pureScience g text:nth-child(2){
+            display: none;
+        }
+        #common g text:nth-child(2){
+            display: none;
+        }
+
+        #courseofferinner img
+        {
+            min-height: 95px;
+            min-width: 143px;
+        }
+
+        .studies {
+            padding-left: 5%;
+            /* width: 100%; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+        }
+        #buttonsChart {
+            /* position: absolute; */
+            width: 40em;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        #buttonsChart button{
+            font-size: 1.5em;
+            width: 100%;
+            margin-bottom: 5%;
+            height: 40px;
+            background-image: linear-gradient(90deg, #058F84, #FEC519);
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        #medicalButton, #pureScienceButton {
+            background-image: linear-gradient(-90deg, #058F84, #FEC519) !important;
+        }
+
+        @media screen and (max-width: 769px) {
+
+            #servicesHeading {
+                font-size: 3rem !important;
+                margin-top: 10% !important;
+            }
+
+            #buttonsChart {
+                flex-direction: row !important;
+                width: 100% !important;
+                margin-left:0% !important;
+            }
+
+            #servicesContent {
+                font-size: 1.5rem !important;
+                margin-left: 5% !important;
+                margin-right: 10% !important;
+            }
+            .studies {
+            padding-left: 5%;
+            /* width: 100%; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+            .row {
+                margin-right: 1px !important;
+            }
+
+            .graph p {
+                font-size: 3rem !important;
+            }
+
+            #coursesoffer h1
+            {
+                font-size: 3rem !important;
+            }
+
+            #courseofferinner h2
+            {
+                font-size: 1.5rem !important;
+
+            }
+            #courseofferinner p
+            {
+                font-size: 1rem !important;
+
+            }
+
+            #studiesCharts
+            {
+                
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            #buttonsChart button
+            { 
+                margin: 1%;                 
+            }
+            
+            #buttonsChart
+            {
+                margin: 1%;
+                width: fit-content;                 
+            }
+           
+           
+            #courseofferinner h3
+            {
+                font-size: 1.4rem !important;
+
+            }
+
+
+            #tpta {
+                width: 300px !important;
+            }
+
+            #whatWeOfferContent {
+                font-size: 3rem !important;
+                flex-direction: row !important;
+                margin-left: 15% !important;
+            }
+
+            #whatWeOfferContent p {
+                font-size: 1.5rem !important;
+                margin-left: 50% !important;
+            }
+
+            .greyBoxHead {
+                font-size: 1.5rem !important;
+            }
+
+            .greyBoxHeadMBBS {
+                font-size: 1.7rem !important;
+            }
+
+            .greyBoxContent {
+                font-size: 1rem !important;
+                padding: 6% !important;
+            }
+            /*
+            #buttonsChart {
+                 flex-direction: row; 
+                 width: 40rem !important; 
+            }
+            #buttonsChart button {
+                 font-size: 1.5em !important; 
+            }
+             #studies {
+                flex-direction: row !important;
+            } */
+            .ycard{
+                width: 1.5rem !important;
+                padding: 1.5rem !important;
+            }
+            .atxt{
+                font-size: 0.9rem !important;
+            } 
+        }
+
+        @media (min-width: 769px) and (max-width: 1245px) {
+            #servicesContent {
+                font-size: 1.5rem !important;
+            }
+
+            #whatWeOfferContent {
+                font-size: 1.5rem !important;
+            }
+
+            #whatWeOfferContent p {
+                font-size: 1.5rem !important;
+            }
+
+            #tpta {
+                width: 80% !important;
+            }
+
+            #studiesCharts div
+            {
+                max-width: 700px ;
+                max-height: 300px;
+                
+            }
+           
+
+            #studiesCharts
+            {
+                align-items: center !important;
+                justify-content: center !important;
+                
+            }
+            .ycard{
+                width: 1.5rem !important;
+                padding: 1.5rem !important;
+            }
+            .atxt{
+                font-size: 1.3rem !important;
+            } 
+        }
+
+        @media screen and (max-width: 400px) {
+            #servicesContent {
+                font-size: 1.5rem !important;
+            }
+
+            #whatWeOfferContent p {
+                margin-left: 35% !important;
+            }
+
+            #tpta {
+                width: 80% !important;
+            }
+
+            #buttonsChart {
+                flex-direction: row !important;
+                /* width: 10rem !important; */
+            }
+            #buttonsChart button {
+                font-size: 1em !important;
+            }
+
+            #courseofferinner img
+            {
+                height: 95px;
+                width: 143px;
+            }
+            .ycard{
+                width: 0.7rem !important;
+                padding: 0.7rem !important;
+            }
+            .atxt{
+                font-size: 0.7rem !important;
+            } 
+
+        }
+
+        @media screen and (max-width: 768px)
+        {
+            #common
+            {
+                max-width: 400px !important;
+                max-height: 200px !important;
+                
+            }
+        }
+
+    </style>
+</head>
+
+<body class="d-flex flex-column h-100" style="overflow-x:hidden ;">
+
+    <!-- Navbar -->
+    <header class="header">
+        <div class="sticky">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand logo" href="index.html"><img src="Images/logo.svg" alt="logo" style="width: 65px; height: 50px;"></a>
+                    <div class="container-fluid">
+
+                        <button style="margin-left: 85%;" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html#chooseUs">About</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="Our-services.html">Our Courses</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html#best">Testimonials</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html#contactForm">Contact Us</a>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+            </div>
+            </nav>
+        </div>
+    </header>
+    <!-- End of Navbar -->
+
+    <div class="ourServices" class="container-fluid">
+        <h1 id="servicesHeading" style="text-align: center; font-size: 4rem; margin-top: 8%;">
+            <b>Our Courses </b>
+        </h1>
+        <!-- <p id="servicesContent"
+            style=" text-align: center; margin-left: 30%; margin-right: 30%; font-size: 2rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+            Every child is unique and possesses a distinguished ability : to be recognized. They need to know what they
+            are good at and not forced behind what they must be good at.
+        </p> -->
+    </div>
+
+
+    <div class="container-fluid"
+        style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+        <br>
+        <!-- <h2 style="text-align: center; font-size: 3rem;">
+            <b>What we Offer</b>
+        </h2>
+        <div class="d-flex row flex-row what-we-offer">
+
+
+            <div id="whatWeOfferContent" class="p-4 col-6"
+                style="margin-right: 20px; margin-left: 30px; font-size: 2rem; display: flex; justify-content: center; flex-direction: column;">
+
+                <p style="text-align: justify;">
+                    <b style="color: #F1BE00;">For STD 8, 9, 10 : </b><br>
+                    Regular schooling with targeted preperation for boards and foundation work of entrance
+                    exams<br><br>
+                </p>
+
+                <p style="text-align: justify;">
+                    <b style="color: #F1BE00;">For STD 11, 12 : </b><br>
+                    Targeted preparatlon for Boards with practical's and
+                    thorough coaching for State & Natlonal entrances.
+                </p>
+
+            </div>
+        </div>-->
+        <div class="row">
+            <div class="ycard card-body" style="background-color: #F1BE00; 
+                                         width: 3rem;
+                                         height: 10rem;
+                                         padding: 1.5rem;
+                                         border-radius: 25px 25px 25px 25px;
+                                         margin-left: 5%;">
+              <a class="atxt" href="#class1" style="font-size: 1.5rem;
+                                        color: black;
+                                        text-decoration: none;"><b>8th, 9th, 10th Maharashtra Board Tuition</b></a>
+            </div>
+            <div class="ycard card-body" style="background-color: #F1BE00; 
+                                         width: 3rem;
+                                         height: 10rem; 
+                                         padding: 1rem;
+                                         border-radius: 25px 25px 25px 25px;
+                                         margin-left: 5%;">
+              <a class="atxt" href="#class2" style="font-size: 1.5rem;
+                                        text-align: justify;
+                                        color: black;
+                                        text-decoration: none;"><b>11th-12th Engineering/Pure Science (JEE Mains + Advance)</b></a>
+            </div>
+            <div class="ycard card-body" style="background-color: #F1BE00; 
+            width: 2rem;
+            height: 10rem; 
+            padding: 2rem;
+            border-radius: 25px 25px 25px 25px;
+            margin-left: 5%;">
+            <a class="atxt" href="#class3" style="font-size: 1.5rem; 
+            text-align: justify;
+            color: black;
+            text-decoration: none;"><b>11th-12th(MHT-CET + Boards)</b></a>
+            </div>
+            <div class="ycard card-body" style="background-color: #F1BE00; 
+            width: 2rem;
+            height: 10rem; 
+            padding: 2rem;
+            border-radius: 25px 25px 25px 25px;
+            margin-left: 5%;
+            margin-right: 5%;">
+            <a class="atxt" href="#class4"
+            style="font-size: 1.5rem;
+            text-align: justify;
+            color: black;
+            text-decoration:none ;"><b>11th-12th Management/<br>International (SAT)</b></a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="ycard card-body" style="background-color: white; 
+                                         width: 3rem;
+                                         padding: 3rem;
+                                         border-radius: 25px 25px 25px 25px;
+                                         margin-left: 5%;">
+              <p class="atxt" style="font-size: 13px;">It serves a variety of purposes,
+                making presentations powerful
+                tools for convincing and teaching.</p>
+            </div>
+            <div class="ycard card-body" style="background-color: white; 
+                                         width: 3rem;
+                                         padding: 3rem;
+                                         border-radius: 25px 25px 25px 25px;
+                                         margin-left: 5%;">
+              <p class="atxt" style="font-size: 13px;">It serves a variety of purposes,
+                making presentations powerful
+                tools for convincing and teaching.</p>
+            </div>
+            <div class="ycard card-body" style="background-color: white; 
+                                         width: 3rem;
+                                         padding: 3rem;
+                                         border-radius: 25px 25px 25px 25px;
+                                         margin-left: 5%;">
+              <p class="atxt" style="font-size: 13px;">It serves a variety of purposes,
+                making presentations powerful
+                tools for convincing and teaching.</p>
+            </div>
+            <div class="ycard card-body" style="background-color: white; 
+                                         width: 3rem;
+                                         padding: 3rem;
+                                         border-radius: 25px 25px 25px 25px;
+                                         margin-left: 5%;
+                                         margin-right: 5%;">
+              <p  class="atxt" style="font-size: 13px;">It serves a variety of purposes,
+                making presentations powerful
+                tools for convincing and teaching.</p>
+            </div>
+            <br>
+          </div>
+          <center>
+          <div class="p-4 col-md-5 col-sm-12" style="display: inline-flexbox; margin-left: 20px; font-size: 20px;">
+            <b>This is achieved through our T.P.T.A approach:</b>
+            <img id="tpta" class="mx-auto d-block" src="Images/TPTA.png" alt="TPTA;" style="width: 550px;">
+        </div> 
+          </center>
+    </div>
+
+    <!-- greybox -->
+    <div class="container-fluid"
+        style="background: linear-gradient(180deg, #2E2B2B 30.31%, rgba(0, 0, 0, 0) 100%); height: auto; display: inline-block; padding: 3%;">
+        <div class="row">
+            <h1 class="greyBoxHead" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 2.5rem;
+            font-weight: 500;
+            line-height: 50px;
+            letter-spacing: 0em;
+            text-align: center;
+            color:#ffffff;            
+            ">It’s not just a coaching class, but an academy of learning</h1> <br><br><br>
+        </div>
+        <div class="row">
+            <div class="col greyBoxContent" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 400;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: left;
+            color:#ffffff; 
+            ">
+                <ul>
+                    <li>You demand, we provide.</li>
+                    <li>Your needs are our services.</li>
+                    <li>One stop solution for boards and entrance exams</li>
+                </ul>
+            </div>
+            <div class="col greyBoxContent" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 400;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: left;
+            color:#ffffff; 
+            ">
+                <ul>
+                    <li>Logical reasoning, analytical thinking, clear explanation and application of concepts via
+                        realworld examples.</li>
+                    <li>Knowledge can be easily absorbed but its usefulness needs to be remembered</li>
+                </ul>
+            </div>
+        </div>
+
+        <br><br>
+
+
+        <div class="row" style="display: flex; align-items: baseline; justify-content: center;">
+            <h1 class="greyBoxHeadMBBS" style="background-color: #F1BE00; border-radius: 25px; width: 70%;
+            font-size: 40px;
+            font-weight: 500;
+            line-height: 50px;
+            letter-spacing: 0em;
+            text-align: center;
+            color:#000000;            
+            ">IIT and M.B.B.S. is not everything</h1> <br><br><br>
+            <ul class="greyBoxContent" style=" border: 2px solid #F1BE00; border-radius: 25px; width: 70%; padding: 3%;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: justified !important;
+            color:#000000">
+                <li>Science is more than just becoming a Doctor or an Engineer.
+                    Everything is made up of science, even money.</li> <br>
+                <li>The Universe functions on science. Not everyone can be Bill Gates or Warren
+                    Buffet. Some become Elon Musk while some become Zuckerberg. And mostly, some defy
+                    the norms and become the first of themselves.</li> <br>
+                <li>The options are indefinite and so are you.</li>
+            </ul> <br><br><br><br><br><br><br><br>
+        </div>
+    </div>
+
+    <div id="studies">
+        <div id="charButtons">
+          <button id="engineeringButton">Engineering</button>
+          <button id="medicalButton">Medical</button>
+          <button id="managementButton">Management</button>
+          <button id="pureScienceButton">Pure Science</button>
+        </div>
+        <div id="charts">
+          <div id="common" class="chart"></div>
+          <div style="display: none;" id="engineering" class="chart"></div>
+          <div style="display: none;" id="medical" class="chart"></div>
+          <div style="display: none;" id="management" class="chart"></div>
+          <div style="display: none;" id="pureScience" class="chart"></div>
+        </div>
+      </div>
+    <!--<div class="studies" id="pieouter">
+        <div id="buttonsChart">
+            <button id="engineeringButton">Engineering</button>
+            <button id="medicalButton">Medical</button>
+            <button id="managementButton">Management</button>
+            <button id="pureScienceButton">Pure Science</button>
+        </div>
+        <div class="study" id="studiesCharts" >
+            <div id="common" style="width: 900px !important; height: 500px !important;"></div>
+            <div id="engineering"  style="width: 900px !important; height: 500px !important;"></div>
+            <div id="medical"  style="width: 900px !important; height: 500px !important;"></div>
+            <div id="management"  style="width: 900px !important; height: 500px !important;"></div>
+            <div id="pureScience"  style="width: 900px !important; height: 500px !important;"></div>
+        </div>
+    </div>
+     <div class="studies">
+        <div class="container">
+
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <span class="stars"></span>
+                        <p class="cardText" style="text-align: center;">JEE Mains <br> JEE Advanced <br> MHT-CET <br>
+                            BITSAT <br> VITEEE <br> IIT Hyderabad</p>
+                    </div>
+                </div>
+                <div class="face face2" style="display: flex; flex-direction: column;">
+                    <img src="Images/worker 1.svg" alt="engineering">
+                    <h2>Engineering</h2>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <span class="stars"></span>
+                        <p class="cardText" style="text-align: center;">NEET <br> AIIMS <br> AFMC <br> MGIMS <br> JIOMER
+                            <br> CMC</p>
+                    </div>
+                </div>
+                <div class="face face2" style="display: flex; flex-direction: column;">
+                    <img src="Images/medical-equipment 1.svg" alt="medical">
+                    <h2>Medical</h2>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <span class="stars"></span>
+                        <p class="cardText" style="text-align: center;">IPM (IIM Indore) <br> SET (Symbiosis) <br> NPAT
+                            (NMIMS) <br> NCHMJEE (IHM) <br> BMCC (Pune)</p>
+                    </div>
+                </div>
+                <div class="face face2" style="display: flex; flex-direction: column;">
+                    <img src="Images/management 1.svg" alt="management">
+                    <h2>Management</h2>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <span class="stars"></span>
+                        <p class="cardText" style="text-align: center;">IISc <br> KVPY <br> IISER <br> ISI <br> CMI <br>
+                            NEST</p>
+                    </div>
+                </div>
+                <div class="face face2" style="display: flex; flex-direction: column;">
+                    <img src="Images/science 1.svg" alt="science">
+                    <h2>Pure Sciences</h2>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="container-fluid " id="coursesoffer">
+        <h1 style="text-align: center; font-size: 55px; font-weight: bold;">Courses We Offer</h2>
+    </div>
+    <div class="courses" id="courseofferinner" style="margin-top: 5%; margin-bottom: 3%; background-color: #382A29; color: white;">
+        <div class="row">
+        <div class="col">
+            <img class="img-fluid" src="images/10thclass.jpg">
+        </div>
+        <div class="col" style="margin-left:2%"  id="class1">
+            <br> <br>
+            <h2>8th, 9th, 10th</h2>
+            <h2>CBSE & State Board</h2>
+            <h2>Tuition Combined with Foundation</h2>
+            <p>Batch Time - Mon-Sat (04:30pm-07:30pm)</p>
+            <br>
+            <h3>Subjects We Cover</h3>
+            <p>Board Subject - Science, Mathematics, Social Science<br>
+                Language - English</p>
+            
+                <br>
+                <h3>Foundation</h3>
+                <p>Science and Mathematics foundation courses
+                    according to IIT-JEE Syllabus</p>
+            
+                    <br>
+                    <h3>Vocational NEP Courses</h3>
+                    <p>Programming Languages, Robotics, Foreign
+                        Languages, Accounting, Finance, Dance</p>
+        </div>
+    </div> 
+
+    <div class="row" style="background-color: white; color: #000000;">
+        <div class="col" style="margin-left:2%"  id="class2">
+            <br>
+            <br>
+            <h2>11th-12th (2-Yrs Programme)</h2>
+            <h2>Engineering/Pure Science</h2>
+            <h2>(JEE Mains + Advance)</h2>
+          
+            <p>Batch Time - Mon-Sat (08:00am-06:00pm)</p>
+            <br>
+            <h3>Subjects We Cover</h3>
+            <p>Physics, Mathematics, Chemistry, Biology</p>
+            
+                <br>
+                <h3>Provision</h3>
+                <p>In-House Notes + DPP, Testing, Parents Teacher Meet,
+                    Online Support, Remedial Classes, Doubt Clarification
+                    & Tutorial</p>
+                    
+                    <h3>Entrance Exam We Cover</h3>
+                    <p style="margin-bottom: 0;">JEE Mains, JEE Advance, BITSAT, VITEEE, MHT-CET,
+                        IIIT Hyderabad, DTU, NSIT, IISER, NISER, KVPY, IISc, CMI</p>
+        </div>
+        <div class="col">
+            <img class="img-fluid" src="images/mht.jpg" style="margin-bottom: 0; padding-bottom: 0;">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <img class="img-fluid" src="images/11thclass.jpg">
+        </div>
+        <div class="col" style="margin-left:2% ; margin-top: 0.45%;"  id="class3">
+            
+            <h2>11th-12th</h2>
+            <h2>(MHT-CET + Boards)</h2>
+            <h2>2 Yrs Programme</h2>
+            <p>Batch Time - Mon-Sat (08:00am-06:00pm)</p>
+            <br>
+            <h3>Subjects We Cover</h3>
+            <p>Physics, Mathematics, English, Chemistry, Biology</p>
+            
+                <br>
+                <h3>Provision</h3>
+                <p>In-House Notes + DPP, MHT-CET + Boards Testing,
+                    MHT-CET Crash Course Parents Teacher Meet, Online
+                    Support, Doubt Clarification & Tutorial</p>
+            
+                    <br>
+                    <h3>Entrance Exam We Cover</h3>
+                    <p>12th (HSC) Boards</p>
+                    <p>MHT-CET</p>
+        </div>
+    </div>
+
+    <div class="row" style="background-color: white; color: #000000;">
+        <div class="col" style="margin-left:2%; margin-top: 0.5%;"  id="class4">
+            <h2>11th-12th</h2>
+            <h2>Management/International</h2>
+            <h2>(SAT)</h2>
+            <p>Batch Time - Mon, Wed,Fri (05:00pm-08:00pm)</p>
+            <br>
+            <h3>Subjects We Cover</h3>
+            <p>Verbal/English, Quantitative/Mathematics</p>
+            
+                <br>
+                <h3>Provision</h3>
+                <p>Individual Mentorship, International Admission Counselling,
+                    Management + TOEFL/IELTS+ SAT Testing, Composing
+                    SOP, Composing Essays/LOR, University Shortlisting &
+                    Application, Visa Counselling, Pre & Post Departure Aid,
+                    Financial Assistance, Branch & Field Shortlisting, Housing
+                    Assistance, In house Notes + Remedial Classes.</p>
+            
+                    <br>
+                    <h3>Entrance Exam We Cover</h3>
+                    <p>SAT, TOEFL/IELTS, CUCET, CUET , JIPMAT, IPM <br>
+                        IIM - Indore , Rohtak, Ranchi, Jammu, Bodhgaya, Kozhikode
+                        NALSAR Hyderabad, Mahindra University, NMIMS, NIRMA, SET, UPES</p>
+        </div>
+        <div class="col">
+            <img class="img-fluid" src="images/management.jpg">
+        </div>
+    </div>
+    </div>
+
+    <div style="background-color: #FEFFBA; margin-bottom: 2%;padding-bottom: 2%;">
+        <div class="container-fluid" style="margin-bottom: 1%; margin-top:3%;" >
+         
+                <h1 style="text-align: center;
+                      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                      font-size: 40px;
+                      padding-top: 0.5%;
+                     color: black;">Our Glorious Alumini Over the Years
+                </h1>
+        </div>
+    <section class="alumni-profiles slider container" style="margin-top:2.5% ; margin-bottom: 2%; ">
+        <div class="slide profile">
+            <img style="width:200px ;height:230px" src="images/sample.png"><br>
+            <h4>Name-1</h4>
+       
+        </div>
+        <div class=" slide profile">
+            <img style="width:200px ;height:230px" src="images/sample.png"><br>
+            <h4>Name-2</h4>
+            
+        </div>
+        <div class="slide profile"> 
+            <img style="width:200px ;height:230px" src="images/sample.png"><br>
+            <h4>Name-3</h4>
+          
+        </div>
+        <div class=" slide profile">
+            <img style="width:200px ;height:230px" src="images/sample.png"><br>
+            <h4>Name-4</h4>
+        </div>
+        <div class="slide profile"> 
+            <img style="width:200px ;height:230px" src="images/sample.png"><br>
+            <h4>Name-5</h4>
+            
+        </div>
+        <div class="slide profile"> 
+            <img style="width:200px ;height:230px" src="images/sample.png"><br>
+            <h4>Name-6</h4>
+           
+        </div>
+        <div class="slide profile">
+             <img style="width:200px ;height:230px" src="images/sample.png"><br>
+             <h4>Name-7</h4>
+  
+        </div>
+        <div class="slide profile"> 
+            <img style="width:200px ;height:230px" src="images/sample.png"><br>
+            <h4>Name-8</h4>
+
+        </div>
+        <div class="slide profile"> 
+            <img style="width:200px ;height:230px" src="images/sample.png"><br>
+            <h4>Name-9</h4>
+            
+        </div>
+        <div class="slide profile"> 
+            <img style="width:200px ;height:230px" src="images/sample.png"><br>
+            <h4>Name-10</h4>
+            
+        </div>
+        <div class="slide profile"> 
+            <img style="width:200px ;height:230px" src="images/sample.png"><br>
+            <h4>Name-11</h4>
+            
+        </div>
+        <div class="slide profile"> 
+            <img style="width:200px ;height:230px" src="images/sample.png"><br>
+            <h4>Name-12</h4>
+            
+        </div>
+        <div class="slide profile"> 
+            <img style="width:200px ;height:230px" src="images/sample.png"><br>
+            <h4>Name-13</h4>
+            
+        </div>
+    </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        
+        <div class="row" style="margin-top: 3%;">
+            <div class="col">
+                <a href="#"><img  class="logoFooter" src="Images/logo.svg" alt="logo" style="width: 90%; margin-left: 10%;">
+                </a>  <br>
+            </div>
+            <div id="follow" class="col">
+                <h3 style="color: #f1be00;">Follow US</h3>
+                <ul>
+                    <li><a href="#" target="_blank"><i class="bi bi-instagram"></i> &nbsp; Instagram</a></li> <br>
+                    <li><a href="#" target="_blank"><i class="bi bi-facebook"></i>&nbsp;&nbsp; Facebook</a></li> <br>
+                    <li><a href="#" target="_blank"><i class="bi bi-twitter"></i> &nbsp; Twitter</a></li> <br>
+                    <li><a href="#" target="_blank"><i class="bi bi-youtube"></i> &nbsp; Youtube</a></li>
+                </ul>
+            </div>
+            <div id="Address" class="col">
+                <h3 style="color: #f1be00;">Address</h3>
+              
+               <ul>
+                    <li><a href="https://goo.gl/maps/DgjaQ1T3QNGjcsnx5" target="_blank" style="color: #f1be00;">The Learning Lens Academy <br>
+                    <li><a href="#">'Hans' building, First Floor,<br> 27/570, Pradhikaran, Near <br>ICICI Bank, <br> Pune, Nigdi, Pune - 411044</a></li>
+                    
+                </ul>
+            </div>
+            <div id="Contact" class="col">
+                <h3 style="color: #f1be00;">Office Contacts</h3>
+                <ul>
+                    <li><a href="#" target="_blank" ><i class="bi bi-telephone-fill"></i> &nbsp; 91-9112219551/52</a></li>
+                    <li><a href="#" target="_blank"><i class="bi bi-envelope"></i>&nbsp;&nbsp; info@thelearninglens.in</a></li>
+                    <li><a href="#" target="_blank"><i class="bi bi-globe"></i> &nbsp; www.thelearninglens.in</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr style="color: white; width: 100%; height: 2px;">
+        <div class="tmn">
+            <span><a href="https://www.techmihirnaik.in/" style="font-size: 1.6rem;
+                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        color: white;
+                        text-decoration: none;">Website designed by - TechMihirNaik Group</a></span>
+            </div>
+        </footer>
+    <!-- End of Footer -->
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"
+        integrity="sha512-eP8DK17a+MOcKHXC5Yrqzd8WI5WKh6F1TIk5QZ/8Lbv+8ssblcz7oGC8ZmQ/ZSAPa7ZmsCU4e/hcovqR8jfJqA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+         $('.alumni-profiles').slick({
+            dots: true,
+            accessibility: true,
+            arrows: true,
+            infinite: true,
+            autoplay: true,
+            speed: 300,
+            slidesToShow: 4,
+
+            slidesToScroll: 1,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 500,
+                    settings: {
+                        slidesToShow: 1,
+                        centerMode:true,
+                        centerPadding: '92px',
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+    </script>
+    <!--<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="https://www.google.com/jsapi"></script>
+     <script type="text/javascript">
+        // Load google charts
+        google.charts.load('current', {'packages':['corechart']});
+        google.charts.setOnLoadCallback(drawChart);
+    
+        // Draw the chart and set the chart values
+        function drawChart() {
+            var data = google.visualization.arrayToDataTable([
+            ['Exams', 'Distribution'],
+            ['Engineering', 10],
+            ['Medical',10],
+            ['Management', 10],
+            ['Pure Science', 10],
+            ['Architecture', 10],
+            ['Internation Careers', 10],
+            ]);
+        
+            // Optional; add a title and set the width and height of the chart
+            var options = {
+                'legend':'none', 
+                'width':'100%', 
+                'height':'100%',
+                'colors': ['#4CA269', '#B1B63C', '#8A6A3C', '#FCC41A', '#069489', '#685B6F']
+                };
+        
+            // Display the chart inside the <div> element with id="piechart"
+            var chart = new google.visualization.PieChart(document.getElementById('common'));
+            $(document).ready(function(){
+                chart.draw(data, options);
+                $("#engineering").css("display", "none");
+                $("#medical").css("display", "none");
+                $("#management").css("display", "none");
+                $("#pureScience").css("display", "none");
+            });
+        }
+    </script>
+    <script type="text/javascript">
+        // Load google charts
+        google.charts.load('current', {'packages':['corechart']});
+        google.charts.setOnLoadCallback(drawChart);
+        
+    
+        // Draw the chart and set the chart values
+        function drawChart() {
+            var data = google.visualization.arrayToDataTable([
+            ['Exams', 'Distribution'],
+            ['JEE Mains', 10],
+            ['JEE Advanced',10],
+            ['VITEEE', 10],
+            ['BITSAT', 10],
+            ['MHT-CET', 10],
+            ['IIIT Hyderabad', 10],
+            ]);
+        
+            // Optional; add a title and set the width and height of the chart
+            var options = {
+                'legend':'none', 
+                'width':'100%', 
+                'height':'100%',
+                'colors': ['#4CA269', '#B1B63C', '#8A6A3C', '#FCC41A', '#069489', '#685B6F']
+                };
+        
+            // Display the chart inside the <div> element with id="piechart"
+            var chart = new google.visualization.PieChart(document.getElementById('engineering'));
+            $("#engineeringButton").click(function(){
+                chart.draw(data, options);
+            });
+        }
+    </script>
+    <script type="text/javascript">
+        // Load google charts
+        google.charts.load('current', {'packages':['corechart']});
+        google.charts.setOnLoadCallback(drawChart);
+    
+        // Draw the chart and set the chart values
+        function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+            ['Exams', 'Distribution'],
+            ['NEET', 10],
+            ['AIIMS',10],
+            ['AFMC', 10],
+            ['MGIMS', 10],
+            ['JIOMER', 10],
+            ['CMC', 10],
+            ]);
+        
+            // Optional; add a title and set the width and height of the chart
+            var options = { 
+                'width':'100%', 
+                'height':'100%',
+                'colors': ['#4CA269', '#B1B63C', '#8A6A3C', '#FCC41A', '#069489', '#685B6F'],
+                'legend': 'none'
+                };
+        
+            // Display the chart inside the <div> element with id="piechart"
+            var chart = new google.visualization.PieChart(document.getElementById('medical'));
+            $("#medicalButton").click(function(){
+                chart.draw(data, options);
+            });
+        }
+    </script>
+    <script type="text/javascript">
+        // Load google charts
+        google.charts.load('current', {'packages':['corechart']});
+        google.charts.setOnLoadCallback(drawChart);
+    
+        // Draw the chart and set the chart values
+        function drawChart() {
+            var data = google.visualization.arrayToDataTable([
+            ['Exams', 'Distribution'],
+            ['IPM (IIM Indore)', 10],
+            ['SET (Symbiosis)',10],
+            ['NPAT (NMIMS)', 10],
+            ['NCHMJEE (IHM)', 10],
+            ['BMCC (Pune)', 10]
+            ]);
+        
+            // Optional; add a title and set the width and height of the chart
+            var options = { 
+                'width':'100%', 
+                'height':'100%',
+                'colors': ['#4CA269', '#B1B63C', '#8A6A3C', '#FCC41A', '#069489'],
+                'legend': 'none'
+                };
+        
+            // Display the chart inside the <div> element with id="piechart"
+            var chart = new google.visualization.PieChart(document.getElementById('management'));
+            $("#managementButton").click(function(){
+                chart.draw(data, options);
+            });
+        }
+    </script>
+    <script type="text/javascript">
+        // Load google charts
+        google.charts.load('current', {'packages':['corechart']});
+        google.charts.setOnLoadCallback(drawChart);
+    
+        // Draw the chart and set the chart values
+        function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+        ['Exams', 'Distribution'],
+        ['IISc', 10],
+        ['KVPY',10],
+        ['IISER', 10],
+        ['ISI', 10],
+        ['CMI', 10],
+        ['NEST', 10],
+        ]);
+    
+        // Optional; add a title and set the width and height of the chart
+        var options = { 
+            'width':'100%', 
+            'height':'100%',
+            'colors': ['#4CA269', '#B1B63C', '#8A6A3C', '#FCC41A', '#069489', '#685B6F'],
+            'legend': 'none'
+            };
+    
+        // Display the chart inside the <div> element with id="piechart"
+        var chart = new google.visualization.PieChart(document.getElementById('pureScience'));
+        $("#pureScienceButton").click(function(){
+                chart.draw(data, options);
+            });
+        }
+    </script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>-->
+    <script src='jquery1.js'></script>
+  <script  src="charts.js"></script>
+  <script>
+        $(document).ready(function(){
+            $("#engineeringButton").click(function(){
+                $("#engineering").css("display", "block");
+                $("#medical").css("display", "none");
+                $("#management").css("display", "none");
+                $("#pureScience").css("display", "none");
+                $("#common").css("display", "none");
+            });
+            $("#engineeringButton").dblclick(function(){
+                $("#engineering").css("display", "none");
+                $("#common").css("display", "block");
+            });
+
+            $("#medicalButton").click(function(){
+                $("#engineering").css("display", "none");
+                $("#medical").css("display", "block");
+                $("#management").css("display", "none");
+                $("#pureScience").css("display", "none");
+                $("#common").css("display", "none");
+            });
+            $("#medicalButton").dblclick(function(){
+                $("#medical").css("display", "none");
+                $("#common").css("display", "block");
+            });
+
+            $("#managementButton").click(function(){
+                $("#management").css("display", "block");
+                $("#engineering").css("display", "none");
+                $("#medical").css("display", "none");
+                $("#pureScience").css("display", "none");
+                $("#common").css("display", "none");
+            });
+            $("#managementButton").dblclick(function(){
+                $("#management").css("display", "none");
+                $("#common").css("display", "block");
+            });
+
+            $("#pureScienceButton").click(function(){
+                $("#pureScience").css("display", "block");
+                $("#engineering").css("display", "none");
+                $("#medical").css("display", "none");
+                $("#management").css("display", "none");
+                $("#common").css("display", "none");
+            });
+            $("#pureScienceButton").dblclick(function(){
+                $("#pureScience").css("display", "none");
+                $("#common").css("display", "block");
+            });
+        });
+    </script>
+</body>
+
+</html>

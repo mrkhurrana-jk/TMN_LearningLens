@@ -1,0 +1,161 @@
+html{
+    font-size: 62.5%;
+
+}
+
+@media (max-width: 500px) {
+    
+    header {
+        margin-top: 4%;
+    }
+}
+
+
+@media screen and (max-width:768px)
+{
+    html{
+        font-size: 70%;
+    }
+
+    .chooseUsText
+    {
+        font-size: 2.5rem !important;
+        width: 100%;
+    }
+    .chooseUsContent
+    {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .headingwwp{
+        font-size: 2.5rem !important;
+        width: 100%;
+    }
+    .ourExpertiseHead{
+        font-size: 2.5rem !important;
+        width: 100%;
+    }
+
+    .wwp{
+        /* col-12; */
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap; 
+    }
+
+    .wpp{
+        width: 100%;
+        display: flex;
+        font-size: 0.5rem !important;
+        justify-content: space-around;
+        flex-wrap: wrap;   
+    }
+    .ourExpertise{
+        margin-left: -20px;
+    }
+
+    .exp{
+        /* col-12; */
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .exp h3{
+        font-size: 2.5rem !important; 
+    }
+    .pxe{
+        /* col-12; */
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap; 
+    }
+    .pxe p{
+        font-size: 1.5rem !important;
+    }
+    .oexp{
+        /* col-12; */
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap; 
+        
+    }
+    .hi{
+        /* col-12; */
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap; 
+    }
+    .hi img{
+        width: 50%;
+        padding-bottom: 4%;
+        margin-left: 0% !important;
+    }
+
+    .whoContent{
+        /* col-12; */
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap; 
+    }
+    .whoContent p{
+        font-size: 1.5rem !important;
+        text-align: justify;
+    }
+    #whoContent h1{
+        font-size: 3rem !important;
+    }
+    .cpng{
+        
+        display: none;
+    }  
+
+    .madmax{
+        width: 90% !important;
+        margin-left: 5% !important;
+    }
+
+    .square {
+        height: 60% !important;
+        width: 60% !important;
+    }
+
+    .navbar{
+        opacity: 1 !important;
+    }
+
+    .logo {
+        width: 20%;
+    }
+    .logoFooter {
+        margin-top: 35%;
+        width: 100% !important;
+    }
+
+    #whatSays {
+        font-size: 2rem !important;
+    }
+    .whatprovide{
+        font-size: 1.5rem !important;
+    }
+    
+    #experts h1{
+        font-size: 2.5rem !important;
+    }
+    footer div h3 {
+        font-size: 1.5rem;
+    }
+    footer div li {
+        font-size: 1rem;
+    }
+    footer #Contact li {
+        font-size: 1.2rem;
+    }
+}
